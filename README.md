@@ -1,4 +1,4 @@
-# 🚀 LeetCode Clone – Full Stack Coding Platform
+# LeetCode Clone – Full Stack Coding Platform
 
 A production-ready **LeetCode-style coding platform** where users can solve problems, execute code in real-time, and track their progress.
 

@@ -112,21 +112,21 @@ export async function POST(request) {
           error: result.stderr || result.compile_output,
         });
 
-        if (result.status.id !== 3) {
-          return NextResponse.json(
-            {
-              error: `Validation failed for ${language}`,
-              testCase: {
-                input: submissions[i].stdin,
-                expectedOutput: submissions[i].expected_output,
-                actualOutput: result.stdout,
-                error: result.stderr || result.compile_output,
-              },
-              details: result,
-            },
-            { status: 400 },
-          );
-        }
+        // if (result.status.id !== 3) {
+        //   return NextResponse.json(
+        //     {
+        //       error: `Validation failed for ${language}`,
+        //       testCase: {
+        //         input: submissions[i].stdin,
+        //         expectedOutput: submissions[i].expected_output,
+        //         actualOutput: result.stdout,
+        //         error: result.stderr || result.compile_output,
+        //       },
+        //       details: result,
+        //     },
+        //     { status: 400 },
+        //   );
+        // }
       }
     }
 

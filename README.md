@@ -198,7 +198,7 @@ JUDGE0_API_URL=
 npm run dev
 ```
 
-## 5. Run Judge0 (Local - Optional)
+## 5. Run Judge0 (Local)
 
 ```bash
 docker-compose up -d
